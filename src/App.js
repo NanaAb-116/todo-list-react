@@ -129,7 +129,11 @@ function App() {
             }}
           />
           <button type='submit' className='submit-btn'>
-            {isEditing ? <FaEdit /> : <AiOutlinePlus />}
+            {isEditing ? (
+              <FaEdit className='btn' />
+            ) : (
+              <AiOutlinePlus className='btn' />
+            )}
           </button>
           <select name='todos' id='filter' onChange={statusHandler}>
             <option value='all'>All</option>

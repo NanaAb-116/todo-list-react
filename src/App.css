@@ -35,26 +35,32 @@ form {
   padding: 0.8rem 1rem;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  border: 0;
   outline: 0;
 }
 .submit-btn {
   cursor: pointer;
+  z-index: 0;
   width: 3rem;
-  height: 2.75rem;
-  padding: 0.75rem 1rem;
-  position: relative;
-  right: 10px;
-  top: 1px;
+  height: 2.72rem;
+  margin-right: 0.25rem;
+  border: 0;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: white;
+  color: black;
+}
+.btn {
+  z-index: 1;
 }
 select {
   width: 9rem;
   height: 2.75rem;
   padding: 0.8rem 1rem;
-  position: relative;
   border-radius: 8px;
+  border: 0;
+  outline: 0;
+  color: black;
 }
 
 .todo-list {
